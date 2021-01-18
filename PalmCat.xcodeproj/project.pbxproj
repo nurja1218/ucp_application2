@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E037E0A25805C1C004D5038 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 1E037E0925805C1C004D5038 /* www */; };
+		1E57A0D3254949EB0036BB95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57A0D2254949EB0036BB95 /* AppDelegate.swift */; };
+		1E57A0D5254949EB0036BB95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57A0D4254949EB0036BB95 /* ViewController.swift */; };
+		1E57A0D7254949EC0036BB95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E57A0D6254949EC0036BB95 /* Assets.xcassets */; };
+		1E57A0DA254949EC0036BB95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E57A0D8254949EC0036BB95 /* Main.storyboard */; };
+		1E57A0E8254976700036BB95 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57A0E7254976700036BB95 /* BluetoothManager.swift */; };
+		1E57A111254A58680036BB95 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57A110254A58680036BB95 /* NavigationBarView.swift */; };
+		1E57A114254A5DC00036BB95 /* PeroButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E57A113254A5DC00036BB95 /* PeroButton.swift */; };
+		1E77F58B255E0E7C0014C060 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E77F58A255E0E7C0014C060 /* ModelManager.swift */; };
+		1E880EEF25524F2D000CB584 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E880EEE25524F2D000CB584 /* WebKit.framework */; };
+		1E97AB4425669FEA00638587 /* Users.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EA692B8255A9FB10089AD6D /* Users.xcdatamodeld */; };
+		1EA692DF255AA8190089AD6D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA692DE255AA8190089AD6D /* CoreDataManager.swift */; };
+		1EEEBB4C258B904C00445BE5 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEEBB4B258B904C00445BE5 /* Downloader.swift */; };
+		8A885BAC0A68464BB7FD1200 /* Pods_PalmCat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7749FD5FBEB39DAE089BD1AE /* Pods_PalmCat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E037E0925805C1C004D5038 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		1E57A0CF254949EB0036BB95 /* pero UCP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pero UCP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E57A0D2254949EB0036BB95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E57A0D4254949EB0036BB95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E57A0D6254949EC0036BB95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E57A0D9254949EC0036BB95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E57A0DB254949EC0036BB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E57A0DC254949EC0036BB95 /* PalmCat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PalmCat.entitlements; sourceTree = "<group>"; };
+		1E57A0E7254976700036BB95 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		1E57A110254A58680036BB95 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		1E57A113254A5DC00036BB95 /* PeroButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeroButton.swift; sourceTree = "<group>"; };
+		1E77F58A255E0E7C0014C060 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		1E880EEE25524F2D000CB584 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1EA692B9255A9FB10089AD6D /* Users.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Users.xcdatamodel; sourceTree = "<group>"; };
+		1EA692DE255AA8190089AD6D /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		1EA692E0255AC03D0089AD6D /* Users 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Users 2.xcdatamodel"; sourceTree = "<group>"; };
+		1EEEBB4B258B904C00445BE5 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		4327ECEAAA90462B0C67F915 /* Pods-PalmCat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PalmCat.release.xcconfig"; path = "Target Support Files/Pods-PalmCat/Pods-PalmCat.release.xcconfig"; sourceTree = "<group>"; };
+		7749FD5FBEB39DAE089BD1AE /* Pods_PalmCat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PalmCat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85456ED4C1BECBCB721267B7 /* Pods-PalmCat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PalmCat.debug.xcconfig"; path = "Target Support Files/Pods-PalmCat/Pods-PalmCat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E57A0CC254949EB0036BB95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E880EEF25524F2D000CB584 /* WebKit.framework in Frameworks */,
+				8A885BAC0A68464BB7FD1200 /* Pods_PalmCat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E57A0C6254949EB0036BB95 = {
+			isa = PBXGroup;
+			children = (
+				1E57A0D1254949EB0036BB95 /* PalmCat */,
+				1E57A0D0254949EB0036BB95 /* Products */,
+				1ECC1E647C7F806DC68D6290 /* Pods */,
+				57BF1A083B492E0042FFEF1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E57A0D0254949EB0036BB95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E57A0CF254949EB0036BB95 /* pero UCP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E57A0D1254949EB0036BB95 /* PalmCat */ = {
+			isa = PBXGroup;
+			children = (
+				1E037E0925805C1C004D5038 /* www */,
+				1EA692D5255AA66E0089AD6D /* Model */,
+				1E57A112254A5D9C0036BB95 /* Custom */,
+				1E57A10F254A58500036BB95 /* View */,
+				1E57A0E62549764A0036BB95 /* BLE */,
+				1E57A0D2254949EB0036BB95 /* AppDelegate.swift */,
+				1E57A0D4254949EB0036BB95 /* ViewController.swift */,
+				1EEEBB4B258B904C00445BE5 /* Downloader.swift */,
+				1E57A0D6254949EC0036BB95 /* Assets.xcassets */,
+				1E57A0D8254949EC0036BB95 /* Main.storyboard */,
+				1E57A0DB254949EC0036BB95 /* Info.plist */,
+				1E57A0DC254949EC0036BB95 /* PalmCat.entitlements */,
+			);
+			path = PalmCat;
+			sourceTree = "<group>";
+		};
+		1E57A0E62549764A0036BB95 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				1E57A0E7254976700036BB95 /* BluetoothManager.swift */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		1E57A10F254A58500036BB95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E57A110254A58680036BB95 /* NavigationBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E57A112254A5D9C0036BB95 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				1E57A113254A5DC00036BB95 /* PeroButton.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		1EA692D5255AA66E0089AD6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EA692B8255A9FB10089AD6D /* Users.xcdatamodeld */,
+				1EA692DE255AA8190089AD6D /* CoreDataManager.swift */,
+				1E77F58A255E0E7C0014C060 /* ModelManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1ECC1E647C7F806DC68D6290 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85456ED4C1BECBCB721267B7 /* Pods-PalmCat.debug.xcconfig */,
+				4327ECEAAA90462B0C67F915 /* Pods-PalmCat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		57BF1A083B492E0042FFEF1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E880EEE25524F2D000CB584 /* WebKit.framework */,
+				7749FD5FBEB39DAE089BD1AE /* Pods_PalmCat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E57A0CE254949EB0036BB95 /* PalmCat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E57A0DF254949EC0036BB95 /* Build configuration list for PBXNativeTarget "PalmCat" */;
+			buildPhases = (
+				331F61A7355F30CBB7F12E85 /* [CP] Check Pods Manifest.lock */,
+				1E57A0CB254949EB0036BB95 /* Sources */,
+				1E57A0CC254949EB0036BB95 /* Frameworks */,
+				1E57A0CD254949EB0036BB95 /* Resources */,
+				99CA843E425078339017EF98 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PalmCat;
+			productName = PalmCat;
+			productReference = 1E57A0CF254949EB0036BB95 /* pero UCP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E57A0C7254949EB0036BB95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Junsung Park";
+				TargetAttributes = {
+					1E57A0CE254949EB0036BB95 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 1E57A0CA254949EB0036BB95 /* Build configuration list for PBXProject "PalmCat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E57A0C6254949EB0036BB95;
+			productRefGroup = 1E57A0D0254949EB0036BB95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E57A0CE254949EB0036BB95 /* PalmCat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E57A0CD254949EB0036BB95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E037E0A25805C1C004D5038 /* www in Resources */,
+				1E57A0D7254949EC0036BB95 /* Assets.xcassets in Resources */,
+				1E57A0DA254949EC0036BB95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		331F61A7355F30CBB7F12E85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PalmCat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99CA843E425078339017EF98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PalmCat/Pods-PalmCat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PalmCat/Pods-PalmCat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PalmCat/Pods-PalmCat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E57A0CB254949EB0036BB95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E57A0D5254949EB0036BB95 /* ViewController.swift in Sources */,
+				1E77F58B255E0E7C0014C060 /* ModelManager.swift in Sources */,
+				1E57A114254A5DC00036BB95 /* PeroButton.swift in Sources */,
+				1E57A0D3254949EB0036BB95 /* AppDelegate.swift in Sources */,
+				1E97AB4425669FEA00638587 /* Users.xcdatamodeld in Sources */,
+				1EEEBB4C258B904C00445BE5 /* Downloader.swift in Sources */,
+				1E57A0E8254976700036BB95 /* BluetoothManager.swift in Sources */,
+				1E57A111254A58680036BB95 /* NavigationBarView.swift in Sources */,
+				1EA692DF255AA8190089AD6D /* CoreDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E57A0D8254949EC0036BB95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E57A0D9254949EC0036BB95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E57A0DD254949EC0036BB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LINKER_DISPLAYS_MANGLED_NAMES = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "pero UCP";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E57A0DE254949EC0036BB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LINKER_DISPLAYS_MANGLED_NAMES = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "pero UCP";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1E57A0E0254949EC0036BB95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85456ED4C1BECBCB721267B7 /* Pods-PalmCat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PalmCat/PalmCat.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V48RJ83RM5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = PalmCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CODE_SIGN_FLAGS = " --timestamp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junsoft.PalmCat;
+				PRODUCT_NAME = "pero UCP";
+				PROVISIONING_PROFILE_SPECIFIER = PalmCat_Dist3;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		1E57A0E1254949ED0036BB95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4327ECEAAA90462B0C67F915 /* Pods-PalmCat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PalmCat/PalmCat.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V48RJ83RM5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = PalmCat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_CODE_SIGN_FLAGS = " --timestamp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.junsoft.PalmCat;
+				PRODUCT_NAME = "pero UCP";
+				PROVISIONING_PROFILE_SPECIFIER = PalmCat_Dist3;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E57A0CA254949EB0036BB95 /* Build configuration list for PBXProject "PalmCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E57A0DD254949EC0036BB95 /* Debug */,
+				1E57A0DE254949EC0036BB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E57A0DF254949EC0036BB95 /* Build configuration list for PBXNativeTarget "PalmCat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E57A0E0254949EC0036BB95 /* Debug */,
+				1E57A0E1254949ED0036BB95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1EA692B8255A9FB10089AD6D /* Users.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1EA692E0255AC03D0089AD6D /* Users 2.xcdatamodel */,
+				1EA692B9255A9FB10089AD6D /* Users.xcdatamodel */,
+			);
+			currentVersion = 1EA692B9255A9FB10089AD6D /* Users.xcdatamodel */;
+			path = Users.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E57A0C7254949EB0036BB95 /* Project object */;
+}

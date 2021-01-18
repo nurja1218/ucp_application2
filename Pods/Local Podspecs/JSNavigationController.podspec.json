@@ -1,0 +1,19 @@
+{
+  "name": "JSNavigationController",
+  "version": "0.1.5",
+  "summary": "A highly customizable UINavigationController suited for macOS",
+  "description": "A highly customizable UINavigationController suited for macOS.",
+  "homepage": "https://github.com/juliensagot/JSNavigationController",
+  "license": "MIT",
+  "authors": {
+    "Julien Sagot": "contact@juliensagot.fr"
+  },
+  "source": {
+    "git": "https://github.com/juliensagot/JSNavigationController.git",
+    "tag": "0.1.5"
+  },
+  "platforms": {
+    "osx": "10.10"
+  },
+  "source_files": "JSNavigationController/Sources/**/*"
+}

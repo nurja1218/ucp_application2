@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="20B29" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AppList" representedClassName="AppList" syncable="YES" codeGenerationType="class">
+        <attribute name="etc" optional="YES" attributeType="String"/>
+        <attribute name="group" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="process" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Command" representedClassName="Command" syncable="YES" codeGenerationType="class">
+        <attribute name="command" optional="YES" attributeType="String"/>
+        <attribute name="enable" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="gesture" optional="YES" attributeType="String"/>
+        <attribute name="group" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="shortcut" optional="YES" attributeType="String"/>
+        <attribute name="touch" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="userid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Dummy" representedClassName="Dummy" syncable="YES" codeGenerationType="class">
+        <attribute name="mode" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Gestures" representedClassName="Gestures" syncable="YES" codeGenerationType="class">
+        <attribute name="app_name" optional="YES" attributeType="String"/>
+        <attribute name="code" optional="YES" attributeType="String"/>
+        <attribute name="command" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="shortcut" optional="YES" attributeType="String"/>
+        <attribute name="touch" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserList" representedClassName="UserList" syncable="YES" codeGenerationType="class">
+        <attribute name="answer" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES" codeGenerationType="class">
+        <attribute name="answer" optional="YES" attributeType="String"/>
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="enable" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="userid" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="AppList" positionX="72" positionY="108" width="128" height="118"/>
+        <element name="Command" positionX="136.78125" positionY="116.56640625" width="128" height="178"/>
+        <element name="Gestures" positionX="72" positionY="153" width="128" height="133"/>
+        <element name="UserList" positionX="54" positionY="90" width="128" height="88"/>
+        <element name="Users" positionX="-63" positionY="-18" width="128" height="134"/>
+        <element name="Dummy" positionX="36" positionY="126" width="128" height="44"/>
+    </elements>
+</model>

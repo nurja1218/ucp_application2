@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Dummy+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Dummy+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Users+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Users+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Command+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Command+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:AppList+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:AppList+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Gestures+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Gestures+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:UserList+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:UserList+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:PalmCat.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

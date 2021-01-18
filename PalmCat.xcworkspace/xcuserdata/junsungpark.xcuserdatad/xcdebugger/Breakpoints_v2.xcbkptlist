@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F8F59796-1A63-4888-A241-DF0A7FADB4A8"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "200A7974-0995-442C-9C28-F9317E288946"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PalmCat/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "743"
+            endingLineNumber = "743"
+            landmarkName = "getServerAppList()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "200A7974-0995-442C-9C28-F9317E288946 - 56176ff9da2e8c42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pero_UCP.ViewController.getServerAppList() -&gt; ()"
+                  moduleName = "pero UCP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junsungpark/Downloads/PalmCat/PalmCat/PalmCat/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "743"
+                  endingLineNumber = "743"
+                  offsetFromSymbolStart = "3208">
+               </Location>
+               <Location
+                  uuid = "200A7974-0995-442C-9C28-F9317E288946 - a06fdfa55dcc00ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in pero_UCP.ViewController.getServerAppList() -&gt; ()"
+                  moduleName = "pero UCP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/junsungpark/Downloads/PalmCat/PalmCat/PalmCat/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "745"
+                  endingLineNumber = "745"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

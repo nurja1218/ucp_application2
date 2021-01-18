@@ -1,0 +1,8 @@
+${PODS_ROOT}/Target Support Files/Pods-PalmCat/Pods-PalmCat-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/JSNavigationController/JSNavigationController.framework
+${BUILT_PRODUCTS_DIR}/MBPopup/MBPopup.framework
+${BUILT_PRODUCTS_DIR}/OHMySQL/OHMySQL.framework
+${BUILT_PRODUCTS_DIR}/RxBluetoothKit/RxBluetoothKit.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

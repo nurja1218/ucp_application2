@@ -1,0 +1,6 @@
+framework module JSNavigationController {
+  umbrella header "JSNavigationController-umbrella.h"
+
+  export *
+  module * { export * }
+}
