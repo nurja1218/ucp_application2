@@ -1589,7 +1589,10 @@ class ViewController: NSViewController , WKUIDelegate,WKNavigationDelegate, WKSc
         let str =  getSelectEventListener()
         
         var mouseover =
+         "var arrow_a;" +
          "var arrow_element = document.getElementsByClassName('tab-link-g-img');" +
+         "var arrow_element_a = document.getElementsByClassName('tab-link-g w-inline-block w-tab-link');" +
+         "arrow_element[0].src = arrow_element[0].src.replace('1.', '2.');" +
 
          "for (var i = 0; i < 16; i++) {" +
          "    arrow_element[i].addEventListener('mouseover', mover);" +
@@ -1610,12 +1613,24 @@ class ViewController: NSViewController , WKUIDelegate,WKNavigationDelegate, WKSc
          "            var clear = arrow_element[x].src;" +
          "            arrow_element[x].src = clear.replace('2.', '1.');" +
          "        }" +
-         "        console.log(arrow_element[i + 16]);" +
          "        var img_src = this.src;" +
          "        this.src = img_src.replace('1.', '2.');" +
          "    }" +
          "}" +
-         "arrow_element[0].click();" 
+         "for (var i = 16; i < 32; i++) {" +
+         "    arrow_element[i].src = arrow_element[i].src.replace('1.', '2.');" +
+         "}" +
+            
+         "for (var i = 0; i < arrow_element_a.length; i++) {" +
+         "    arrow_element_a[i].addEventListener('click', mcli2);" +
+         "    function mcli2() {" +
+         "        var clear = this.childNodes[0].src;" +
+         "        for (var x = 0; x < 16; x++) {" +
+         "            arrow_element[x].src = arrow_element[x].src.replace('2.', '1.');" +
+         "        }" +
+         "        this.childNodes[0].src = clear;" +
+         "    }" +
+         "}"
         
         getGestureNodeStr(index: 0)
         
